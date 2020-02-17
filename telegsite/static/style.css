@@ -1,0 +1,29 @@
+html {
+    font-size: 10px; /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
+    font-family: Oswald; 
+    background-color: #fdddf5;
+  }
+  body {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #c60c97;
+    padding: 0 20px 20px 20px;
+    border: 2px solid black;
+  }
+  h1 {
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  p, li {
+    font-size: 16px;    
+    line-height: 2;
+    letter-spacing: 1px;
+  }  
+
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+  }
