@@ -26,8 +26,8 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '0-$ag$asc_u=*9xy80ltbjl_$1_sr5
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
+
 ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['https://tranquil-woodland-24670.herokuapp.com','127.0.0.1']
 # For example: 
 # ALLOWED_HOSTS = ['fathomless-scrubland-30645.herokuapp.com','127.0.0.1']
 
